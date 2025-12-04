@@ -149,7 +149,7 @@ Defined in `App.jsx`, utilizing **Lazy Loading** (`Suspense` + `lazy`) for perfo
 
 ## API Reference
 
-The app communicates with a local `json-server` at `http://localhost:8000`.
+The app communicates with a local `json-server` hosted on [Render](https://render.com/).
 
 | Method   | Endpoint      | Description                      |
 | :------- | :------------ | :------------------------------- |
@@ -162,13 +162,13 @@ The app communicates with a local `json-server` at `http://localhost:8000`.
 
 ```json
 {
-	"cityName": "Lisbon",
-	"country": "Portugal",
-	"emoji": "🇵🇹",
+	"cityName": "Warsaw",
+	"country": "Poland",
+	"emoji": "🇵🇱",
 	"date": "2027-10-31...",
-	"notes": "My favorite city!",
-	"position": { "lat": 38.72, "lng": -9.14 },
-	"id": 73930385
+	"notes": "Capital City of Poland!",
+	"position": { "lat": 52.22, "lng": 21.02 },
+	"id": 1
 }
 ```
 
