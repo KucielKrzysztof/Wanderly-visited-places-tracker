@@ -4,6 +4,10 @@
 
 Built with the **React** ecosystem and interactive maps.
 
+<div align="center" >
+<img src="./public/logo.png" alt="Logo aplikacji" width="200"  />
+</div>
+
 > [!NOTE]
 > This project was created by me while following Jonas Schmedtmann’s “The Ultimate React Course”.
 
@@ -20,21 +24,35 @@ Built with the **React** ecosystem and interactive maps.
 
 ## Screenshots
 
-|                             Homepage                             |                             App Main View                             |
-| :--------------------------------------------------------------: | :-------------------------------------------------------------------: |
-| <img src="screenshots/homepage.png" alt="Homepage" width="400"/> | <img src="screenshots/app-main.png" alt="App Main View" width="400"/> |
+### HOMEPAGE
 
-|                               City Details                               |                               Form                                |
-| :----------------------------------------------------------------------: | :---------------------------------------------------------------: |
-| <img src="screenshots/city-details.png" alt="City Details" width="400"/> | <img src="screenshots/form.png" alt="Add City Form" width="400"/> |
+![homepage](./src/assets/homepage.png)
 
-> _Note: Please replace the image paths above with actual screenshots of your application._
+### PRICING
+
+![pricing](./src/assets/pricing.png)
+
+### PRODUCT
+
+![product](./src/assets/product.png)
+
+### APP LAYOUT
+
+![app](./src/assets/app.png)
+
+### CITY
+
+![city](./src/assets/city.png)
+
+### ADD CITY
+
+![addcity](./src/assets/addcity.png)
 
 ---
 
 ## Technologies
 
-The project uses a modern React stack (v19) and Vite development tools.
+The project uses a modern React stack and Vite development tools.
 
 - **Core:** [React ](https://react.dev/), [Vite](https://vitejs.dev/)
 - **Routing:** [React Router Dom ](https://reactrouter.com/) – SPA navigation and nested routes.
