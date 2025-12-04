@@ -1,7 +1,6 @@
 import { useContext, createContext, useReducer, useCallback } from "react";
 
-const API_URL = "https://wanderly-json-server.onrender.com";
-/* const API_URL = "http://localhost:8000"; */
+const API_URL = "http://localhost:8000";
 
 const CityContext = createContext();
 
@@ -36,7 +35,7 @@ function CityProvider({ children }) {
 			try {
 				const res = await fetch(`${API_URL}/cities?id=${id}`);
 				const data = await res.json();
-				dispatch({ type: "city/loaded", payload: data[0] || {} });
+				dispatch({ type: "city/loaded", payload: data });
 			} catch (error) {
 				dispatch({ type: "rejected", payload: error.message });
 			}

@@ -1,8 +1,7 @@
 import { useContext, createContext, useReducer } from "react";
 import { useEffect } from "react";
 
-const API_URL = "https://wanderly-json-server.onrender.com";
-/* const API_URL = "https://localhost:8000"; */
+const API_URL = "http://localhost:8000";
 const CitiesContext = createContext();
 
 function reducer(state, action) {
