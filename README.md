@@ -92,9 +92,6 @@ You will need **Node.js** installed on your machine.
         npm install
         ```
 
-    <!--
-
-
 3.  **Start the Mock Backend Server:**
     The application requires a backend to fetch city data. Run this in a separate terminal:
 
@@ -102,7 +99,7 @@ You will need **Node.js** installed on your machine.
     npm run server
     ```
 
-    _This starts `json-server` on port 8000 watching `./data/cities.json`._ -->
+    _This starts `json-server` on port 8000 watching `./data/cities.json`._
 
 4.  **Start the Application:**
     ```bash
@@ -152,7 +149,7 @@ Defined in `App.jsx`, utilizing **Lazy Loading** (`Suspense` + `lazy`) for perfo
 
 ## API Reference
 
-The app communicates with a local `json-server` hosted on [Render](https://render.com/).
+The app communicates with a local `json-server` listening on http://localhost:8000
 
 | Method   | Endpoint      | Description                      |
 | :------- | :------------ | :------------------------------- |
