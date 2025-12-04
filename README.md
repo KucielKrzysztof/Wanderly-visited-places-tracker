@@ -82,15 +82,18 @@ You will need **Node.js** installed on your machine.
 1.  **Clone the repository:**
 
     ```bash
-    git clone <repo-name>
-    cd wanderly
+    git clone https://github.com/KucielKrzysztof/Wanderly-visited-places-tracker.git
+    cd Wanderly-visited-places-tracker
     ```
 
 2.  **Install dependencies:**
 
-    ```bash
-    npm install
-    ```
+        ```bash
+        npm install
+        ```
+
+    <!--
+
 
 3.  **Start the Mock Backend Server:**
     The application requires a backend to fetch city data. Run this in a separate terminal:
@@ -99,7 +102,7 @@ You will need **Node.js** installed on your machine.
     npm run server
     ```
 
-    _This starts `json-server` on port 8000 watching `./data/cities.json`._
+    _This starts `json-server` on port 8000 watching `./data/cities.json`._ -->
 
 4.  **Start the Application:**
     ```bash
