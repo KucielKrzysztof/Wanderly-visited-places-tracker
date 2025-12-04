@@ -1,0 +1,64 @@
+{
+  "cities": [
+    {
+      "id": "3500",
+      "cityName": "La Seca",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2025-07-29T12:11:56.553Z",
+      "notes": "",
+      "position": {
+        "lat": "41.45919537950706",
+        "lng": "-4.899902343750001"
+      }
+    },
+    {
+      "id": "05d2",
+      "cityName": "Warsaw",
+      "country": "Poland",
+      "emoji": "🇵🇱",
+      "date": "2025-08-04T13:24:12.303Z",
+      "notes": "",
+      "position": {
+        "lat": "52.22859269307881",
+        "lng": "21.021013097032323"
+      }
+    },
+    {
+      "id": "a4a8",
+      "cityName": "Cortijos, Los",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2025-08-11T16:20:29.370Z",
+      "notes": "asd",
+      "position": {
+        "lat": "39.317300373271024",
+        "lng": "-4.064941406250001"
+      }
+    },
+    {
+      "id": "afb6",
+      "cityName": "Netphen",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2025-12-04T16:47:10.133Z",
+      "notes": "",
+      "position": {
+        "lat": "50.94458443495011",
+        "lng": "8.173828125000002"
+      }
+    },
+    {
+      "id": "d5f3",
+      "cityName": "Arroyo de las Fraguas",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2025-12-04T16:51:11.176Z",
+      "notes": "asd",
+      "position": {
+        "lat": "41.11246878918088",
+        "lng": "-3.1420898437500004"
+      }
+    }
+  ]
+}
